@@ -6677,7 +6677,7 @@ body {
 
 .pdf .pdf-break {
     display: block;
-    height: 20px;
+    height: 30px;
 }
 
 .pdf .wrapper{
@@ -6696,16 +6696,30 @@ body {
      padding-top: 50px;
  }
 
- .pdf .section-txt-btn {
-     padding-left: 3%;
-     padding-right: 3%;
- }
-
  .pdf .timeline-box-inner {
      padding-bottom: 5px;
  }
 
- .pdf #experience .timeline-box-inner h3 {
+ .pdf .timeline-box-inner .pdf-flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+ }
+
+ .pdf .timeline-box-inner .pdf-flex h3, .pdf .timeline-box-inner .pdf-flex h4 {
+     margin-bottom: 0px;
+ }
+
+ .pdf .timeline-box-inner .pdf-flex h3 {
+     margin-right: 40px;
+ }
+
+ .pdf .timeline-box-inner .pdf-flex h4 {
+    text-align: end;
+}
+
+ /* .pdf #experience .timeline-box-inner h3 {
      display: inline-block;
      margin-bottom: 10px;
  }
@@ -6714,7 +6728,7 @@ body {
     float: right;
     margin-top: 7px;
     margin-bottom: 0px;
-}
+} */
 
  .pdf .timeline-box-inner h4, .pdf .timeline-box-inner p {
      margin-bottom: 10px;
