@@ -6705,6 +6705,17 @@ body {
      padding-bottom: 5px;
  }
 
+ .pdf #experience .timeline-box-inner h3 {
+     display: inline-block;
+     margin-bottom: 10px;
+ }
+
+ .pdf #experience .timeline-box-inner h4 {
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
  .pdf .timeline-box-inner h4, .pdf .timeline-box-inner p {
      margin-bottom: 10px;
  }
