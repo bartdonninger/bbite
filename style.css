@@ -6675,6 +6675,10 @@ body {
  * 16.0 - PDF Adjustments
  */
 
+.pdf .wrapper{
+    background-color: white;
+}
+
  .pdf .header, .pdf .btn-scroll-top, .pdf .footer-social {
      display: none !important;
  }
