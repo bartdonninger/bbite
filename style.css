@@ -6687,6 +6687,19 @@ body {
      height: 20px;
  }
 
+ .pdf .section-txt-btn {
+     padding-left: 4%;
+     padding-right: 4%;
+ }
+
+ .pdf .timeline-box-inner {
+     padding-bottom: 5px;
+ }
+
+ .pdf .timeline-box-inner h4, .pdf .timeline-box-inner p {
+     margin-bottom: 10px;
+ }
+
 
 
 /*# sourceMappingURL=style.css.map */
