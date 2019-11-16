@@ -6675,6 +6675,11 @@ body {
  * 16.0 - PDF Adjustments
  */
 
+.pdf .pdf-break {
+    display: block;
+    height: 10px;
+}
+
 .pdf .wrapper{
     background-color: white;
 }
@@ -6687,9 +6692,13 @@ body {
      height: 20px;
  }
 
+ .pdf .section {
+     padding-top: 50px;
+ }
+
  .pdf .section-txt-btn {
-     padding-left: 4%;
-     padding-right: 4%;
+     padding-left: 3%;
+     padding-right: 3%;
  }
 
  .pdf .timeline-box-inner {
