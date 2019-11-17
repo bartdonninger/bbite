@@ -6704,7 +6704,7 @@ body {
  */
 
 .pdf .pdf-break {
-    page-break-after: always;
+    page-break-before: always;
 }
 
 .pdf .wrapper{
