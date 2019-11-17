@@ -6699,6 +6699,12 @@ body {
     text-transform: uppercase;
 }
 
+.section-box.top-border {
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #00a9f4;
+}    
+
 /**
  * 17.0 - PDF Adjustments
  */
