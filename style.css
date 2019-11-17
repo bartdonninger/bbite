@@ -6711,7 +6711,7 @@ body {
 
 .pdf .clearfix {
     page-break-before: always;
-    height: 10px;
+    height: 30px;
 }
 
 .pdf .pdf-break {
