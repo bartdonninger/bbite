@@ -6709,6 +6709,11 @@ body {
  * 17.0 - PDF Adjustments
  */
 
+.pdf .clearfix {
+    page-break-before: always;
+    height: 10px;
+}
+
 .pdf .pdf-break {
     page-break-before: always;
 }
