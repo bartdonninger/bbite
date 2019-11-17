@@ -6709,8 +6709,8 @@ body {
  * 17.0 - PDF Adjustments
  */
 
-.pdf .clearfix {
-    clear: both;
+.pdf .pdf-clearfix {
+    height: 30px;
 }
 
 .pdf .pdf-break {
