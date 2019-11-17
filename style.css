@@ -6670,14 +6670,41 @@ body {
     border: 1px solid #525458 !important;
 }
 
+/**
+ * 16.0 - Projects
+ */
+
+#projects .date {
+    background-color: #00a9f4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    padding: 5px 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#projects .subtitle, #projects .job-title {
+    color: #878787;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+#projects .job-title {
+    text-transform: uppercase;
+}
 
 /**
- * 16.0 - PDF Adjustments
+ * 17.0 - PDF Adjustments
  */
 
 .pdf .pdf-break {
-    display: block;
-    height: 30px;
+    page-break-after: always;
 }
 
 .pdf .wrapper{
@@ -6700,35 +6727,24 @@ body {
      padding-bottom: 5px;
  }
 
- .pdf .timeline-box-inner .pdf-flex {
+ .pdf .pdf-flex {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 10px;
  }
 
- .pdf .timeline-box-inner .pdf-flex h3, .pdf .timeline-box-inner .pdf-flex h4 {
+ .pdf .pdf-flex h3, .pdf .pdf-flex h4, .pdf #education .pdf-flex h4 {
      margin-bottom: 0px;
  }
 
- .pdf .timeline-box-inner .pdf-flex h3 {
+ .pdf .pdf-flex h3 {
      margin-right: 40px;
  }
 
- .pdf .timeline-box-inner .pdf-flex h4 {
+ .pdf .pdf-flex h4 {
     text-align: end;
 }
-
- /* .pdf #experience .timeline-box-inner h3 {
-     display: inline-block;
-     margin-bottom: 10px;
- }
-
- .pdf #experience .timeline-box-inner h4 {
-    float: right;
-    margin-top: 7px;
-    margin-bottom: 0px;
-} */
 
  .pdf .timeline-box-inner h4, .pdf .timeline-box-inner p {
      margin-bottom: 10px;
