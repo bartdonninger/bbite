@@ -6674,6 +6674,10 @@ body {
  * 16.0 - Projects
  */
 
+#projects h5 {
+    margin-bottom: 5px;
+}
+
 #projects .date {
     background-color: #00a9f4;
     color: #fff;
@@ -6699,6 +6703,10 @@ body {
     text-transform: uppercase;
 }
 
+#projects .section-box {
+    margin-top: 30px;
+}
+
 .section-box.top-border {
     border-width: 5px 0 0 0;
     border-style: solid;
@@ -6710,8 +6718,7 @@ body {
  */
 
 .pdf .pdf-clearfix {
-    height: 30px;
-    page-break-before: always;
+    height: 10px;
 }
 
 .pdf .pdf-break {
