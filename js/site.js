@@ -25,9 +25,9 @@
     if(pdf){
         $('html').addClass('pdf');
 
-        var technologies = $('#technologies');
-        $('#technologies').remove();
-        technologies.insertAfter("#skills")
+        // var technologies = $('#technologies');
+        // $('#technologies').remove();
+        // technologies.insertAfter("#skills")
     }
     
 
