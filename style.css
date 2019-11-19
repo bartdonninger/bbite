@@ -6733,6 +6733,10 @@ body {
      padding-top: 50px;
  }
 
+ .pdf .section-box{
+    padding: 30px 30px 10px 30px;
+ }
+
  .pdf .timeline-box-inner {
      padding-bottom: 5px;
  }
