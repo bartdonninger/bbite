@@ -6719,10 +6719,11 @@ body {
 
 .pdf .pdf-clearfix {
     height: 10px;
+    page-break-after: always;
 }
 
 .pdf .pdf-break {
-    page-break-before: always;
+    /* page-break-before: always; */
 }
 
 .pdf .wrapper{
