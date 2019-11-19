@@ -6675,6 +6675,10 @@ body {
  * 16.0 - Projects
  */
 
+#project {
+    margin-top: 30px;
+}
+
 #projects h5 {
     margin-bottom: 5px;
 }
