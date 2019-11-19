@@ -4577,6 +4577,7 @@ body {
 .timeline-box-compact .date span.addition {
     color: #878787;
     float: right;
+    font-weight: normal;
 }
 
 .timeline-box-inner {
@@ -6711,10 +6712,53 @@ body {
     border-width: 5px 0 0 0;
     border-style: solid;
     border-color: #00a9f4;
-}    
+}
+
+.section-box .date{
+    background-color: #00a9f4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    padding: 5px 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
 
 /**
- * 17.0 - PDF Adjustments
+ * 17.0 - Skills & certificate
+ */
+
+ .section-certificates .section-box, .section-skills .section-box {
+     min-height: 292px;
+ }
+
+.section-certificates .title{
+    max-width: 65%;
+    margin-bottom: 5px;
+}
+
+.section-skills .bar-line {
+    height: 10px;
+}
+
+.section-skills .progress-bar {
+    margin-bottom: 30px;
+}
+
+/**
+ * 18.0 - Technologies
+ */
+
+.pdf  #technologies .section-box{
+    padding-bottom: 30px;
+ }
+
+/**
+ * 19.0 - PDF Adjustments
  */
 
 .pdf .pdf-break {
@@ -6769,7 +6813,5 @@ body {
  .pdf .timeline-box-inner h4, .pdf .timeline-box-inner p {
      margin-bottom: 10px;
  }
-
-
 
 /*# sourceMappingURL=style.css.map */
