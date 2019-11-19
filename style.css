@@ -6717,13 +6717,9 @@ body {
  * 17.0 - PDF Adjustments
  */
 
-.pdf .pdf-clearfix {
+.pdf .pdf-break {
     height: 5px;
     page-break-after: always;
-}
-
-.pdf .pdf-break {
-    /* page-break-before: always; */
 }
 
 .pdf .wrapper{
@@ -6744,6 +6740,7 @@ body {
 
  .pdf .section-box{
     padding: 30px 30px 10px 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.40);
  }
 
  .pdf .timeline-box-inner {
