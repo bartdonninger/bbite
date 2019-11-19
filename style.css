@@ -6718,7 +6718,7 @@ body {
  */
 
 .pdf .pdf-clearfix {
-    height: 2px;
+    height: 5px;
     page-break-after: always;
 }
 
